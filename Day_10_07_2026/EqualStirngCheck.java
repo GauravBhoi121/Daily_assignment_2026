@@ -7,6 +7,9 @@ class EqualStirngCheck
         Scanner sc=new Scanner(System.in);
         String s2=sc.nextLine();
         String s1=sc.nextLine();
+        if(s2.length()==s1.length)
+         {
+        for(int i=0;i<s1.length())
         if(s1==s2)
         {
            System.out.println("Equals ");
